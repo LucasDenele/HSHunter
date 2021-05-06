@@ -38,20 +38,20 @@ if __name__ == "__main__":
 
     #Forgeronne des Tarides
     Troc("Forgeronne des Tarides",TradeResource( 1, items[3]),TradeResource(2, items[0]), True)
-    Troc("Forgeronne des Tarides",TradeResource( 1, items[10]),TradeResourceTradeResource(5, items[5]), True)
+    Troc("Forgeronne des Tarides",TradeResource( 1, items[10]),TradeResource(5, items[5]), True)
     Troc("Forgeronne des Tarides",TradeResource( 1, items[23]),TradeResource(8, items[19]), True)
     Troc("Forgeronne des Tarides",TradeResource( 1, items[8]),TradeResource(1, items[25]), True)
-    Troc("Forgeronne des Tarides",TradeResource( 1, items[22]),TradeResourceTradeResource(5, items[4]), True)
+    Troc("Forgeronne des Tarides",TradeResource( 1, items[22]),TradeResource(5, items[4]), True)
     Troc("Forgeronne des Tarides",TradeResource( 1, items[26]),TradeResource(4, items[27]), True)
-    Troc("Forgeronne des Tarides",TradeResource( 1, items[28]),TradeResourceTradeResource(5, items[29]), True)
+    Troc("Forgeronne des Tarides",TradeResource( 1, items[28]),TradeResource(5, items[29]), True)
 
     #Alchimiste de Sombre-Comté
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[3]),TradeResource(2, items[0]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[10]),TradeResourceTradeResource(5, items[5]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[23]),TradeResource(8, items[19]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[8]),TradeResource(1, items[25]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[22]),TradeResourceTradeResource(5, items[4]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[26]),TradeResource(4, items[27]), True)
-    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[28]),TradeResourceTradeResource(5, items[29]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[29]),TradeResource(2, items[0]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[5]),TradeResource(5, items[14]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[11]),TradeResource(8, items[17]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[20]),TradeResource(1, items[15]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[22]),TradeResource(5, items[7]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[28]),TradeResource(4, items[23]), True)
+    Troc("Alchimiste de Sombre-Comté",TradeResource( 1, items[6]),TradeResource(5, items[16]), True)
 
     startGame = Game(1, 2)
