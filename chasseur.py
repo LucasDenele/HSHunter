@@ -1,4 +1,4 @@
-from classes.trades import Troc
+from classes.trades import TradeResource
 from classes.game import Game
 
 items = [
@@ -17,35 +17,32 @@ items = [
     ]
 
 if __name__ == "__main__":
-<<<<<<< HEAD
 
     #Marchant de ballon
-    Troc((1, items[1]),(2, items[0]), True, "Marchant de ballon")
-    Troc((1, items[2]),(5, items[3]), True, "Marchant de ballon")
-    Troc((1, items[4]),(2, items[5]), True, "Marchant de ballon")
-    Troc((1, items[6]),(14, items[7]), True, "Marchant de ballon")
-    Troc((1, items[8]),(3, items[9]), True, "Marchant de ballon")
-    Troc((1, items[11]),(2, items[12]), True, "Marchant de ballon")
-    Troc((1, items[13]),(4, items[14]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[1]),TradeResource(2, items[0]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[2]),TradeResource(5, items[3]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[4]),TradeResource(2, items[5]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[6]),TradeResource(14, items[7]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[8]),TradeResource(3, items[9]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[11]),TradeResource(2, items[12]), True, "Marchant de ballon")
+    Troc(TradeResource(1, items[13]),TradeResource(4, items[14]), True, "Marchant de ballon")
 
     #Vendeuse d'armures
-    Troc((1, items[15]),(1, items[0]), True, "Vendeuse d'armures")
-    Troc((1, items[4]),(4, items[7]), True, "Vendeuse d'armures")
-    Troc((1, items[16]),(4, items[17]), True, "Vendeuse d'armures")
-    Troc((1, items[18]),(22, items[3]), True, "Vendeuse d'armures")
-    Troc((1, items[19]),(4, items[22]), True, "Vendeuse d'armures")
-    Troc((1, items[12]),(3, items[20]), True, "Vendeuse d'armures")
-    Troc((1, items[21]),(2, items[13]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[15]),TradeResource(1, items[0]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[4]),TradeResource(4, items[7]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[16]),TradeResource(4, items[17]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[18]),TradeResource(22, items[3]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[19]),TradeResource(4, items[22]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[12]),TradeResource(3, items[20]), True, "Vendeuse d'armures")
+    Troc(TradeResource(1, items[21]),TradeResource(2, items[13]), True, "Vendeuse d'armures")
 
     #Forgeronne des Tarides
-    Troc((1, items[3]),(2, items[0]), True, "Forgeronne des Tarides")
-    Troc((1, items[10]),(5, items[5]), True, "Forgeronne des Tarides")
-    Troc((1, items[23]),(8, items[19]), True, "Forgeronne des Tarides")
-    Troc((1, items[8]),(1, items[25]), True, "Forgeronne des Tarides")
-    Troc((1, items[22]),(5, items[4]), True, "Forgeronne des Tarides")
-    Troc((1, items[26]),(4, items[27]), True, "Forgeronne des Tarides")
-    Troc((1, items[28]),(5, items[29]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[3]),TradeResource(2, items[0]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[10]),TradeResourceTradeResource(5, items[5]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[23]),TradeResource(8, items[19]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[8]),TradeResource(1, items[25]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[22]),TradeResourceTradeResource(5, items[4]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[26]),TradeResource(4, items[27]), True, "Forgeronne des Tarides")
+    Troc(TradeResource(1, items[28]),TradeResourceTradeResource(5, items[29]), True, "Forgeronne des Tarides")
 
-=======
     startGame = Game(1, 2)
->>>>>>> a8083c6987828dbcbaa0ed74bf255fe39c4de851
