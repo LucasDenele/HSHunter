@@ -1,4 +1,5 @@
-import Troc
+from classes.trades import Troc
+from classes.game import Game
 
 items = [
         #0
@@ -16,6 +17,7 @@ items = [
     ]
 
 if __name__ == "__main__":
+<<<<<<< HEAD
 
     #Marchant de ballon
     Troc((1, items[1]),(2, items[0]), True, "Marchant de ballon")
@@ -44,3 +46,6 @@ if __name__ == "__main__":
     Troc((1, items[26]),(4, items[27]), True, "Forgeronne des Tarides")
     Troc((1, items[28]),(5, items[29]), True, "Forgeronne des Tarides")
 
+=======
+    startGame = Game(1, 2)
+>>>>>>> a8083c6987828dbcbaa0ed74bf255fe39c4de851
