@@ -1,4 +1,5 @@
-import Troc
+from classes.trades import Troc
+from classes.game import Game
 
 if __name__ == "__main__":
-    Troc()
+    startGame = Game(1, 2)
