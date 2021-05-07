@@ -1,13 +1,13 @@
 class TradeResource:
     def __init__(self, quantity, name):
         # String with name of the resource
-        self.object = object
+        self.name = name
 
         # Number of resources involved
         self.quantity = quantity
 
     def __str__(self):
-        return str(self.quantity) + "\t\t" + str(self.name) + "\n"
+        return "[" + str(self.quantity) + " x " + str(self.name) + "]"
 
 class Troc:
     def __init__(self, npcName, givenResource, wantedResource, isInfinite):
@@ -22,5 +22,6 @@ class Troc:
 
         # Whether or not the user can do this trade infinitly
         self.infinite = isInfinite
-
-        print(self.npcName, " ", self.givenResource.object, " ",self.givenResource.quantity, " ", self.wantedResource.object, " ",self.wantedResource.quantity, " ")
+    
+    def __str__(self):
+        return "{ " + str(self.npcName) + " : " + str(self.givenResource) + " = " + str(self.wantedResource) + " }"

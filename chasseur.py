@@ -2,6 +2,7 @@ from classes.trades import TradeResource
 from classes.trades import Troc
 from classes.game import GameManager
 from classes.game import Game
+from classes.ThreadTest import ThreadTest
 
 items = [
         #0
@@ -153,11 +154,14 @@ if __name__ == "__main__":
 
 
     startGame = Game(hand, trades)
+    startGame.setIndex(0)
     gameManager = GameManager(startGame)
-    print(gameManager)
-
     gameManager.incrementGeneration()
-    print(gameManager)
-
-    gameManager.incrementGeneration()
-    print(gameManager)
+    gameManagerThreads = []
+    
+    for game in gameManager.games:
+        gameManagerThreads.append(ThreadTest(game, len(gameManagerThreads)))
+    
+    for thread in gameManagerThreads:
+        thread.start()
+    
